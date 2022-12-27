@@ -4,6 +4,8 @@ colormode(255)
 colors = [(215, 43, 55), (247, 241, 110),
           (37, 25, 15), (186, 52, 63), (32, 4, 7)]
 timmy = Turtle()
+timmy.speed(0)
+timmy.hideturtle()
 timmy.penup()
 screen = Screen()
 
@@ -30,6 +32,5 @@ for j in range(10):
     timmy.goto(x, y)
 
     print(timmy.position())
-
 
 screen.exitonclick()
