@@ -1,7 +1,7 @@
 from turtle import Turtle, Screen, colormode
 import random
 colormode(255)
-colors = [(253, 252, 247), (215, 43, 55), (247, 241, 110),
+colors = [(215, 43, 55), (247, 241, 110),
           (37, 25, 15), (186, 52, 63), (32, 4, 7)]
 timmy = Turtle()
 timmy.penup()
